@@ -1,8 +1,17 @@
 body{
   background-image: url("../img/sala-de-cine.jpg");
   background-size: cover;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center; /*Centra horizontalmente*/
+  align-items: center; /*Centra verticalmente*/
+  height: 100vh; /*Establece el alto del cuerpo al 100% del viewport (ventana del navegador)*/
+  font-size: 35px; /*tamaño de letra*/
+
 }
 
-p{
-  color: #e9f3f3;
-}
+
+
+
+
