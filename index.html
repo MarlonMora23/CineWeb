@@ -3,23 +3,52 @@
 <html lang="es">
 
     <meta charset="UTF-8">
+    <script src="https://kit.fontawesome.com/7f5c9cd26d.js" crossorigin="anonymous"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
    <head>
-      <link rel="stylesheet" type="text/css" href="css/Desing.css">
+      <link rel="stylesheet" type="text/css" href="css/Design.css">
       <title>CineWeb</title>
    </head>
 
    <body>
-       <p>Login</p>
+      <section>
+        <div class="contender">
+          <div class="form">
+            <form action="#">
+              <h2>Login</h2>
 
-       <form action="">
-         <label for="fname">Write your user name:</label><br>
-         <input type="text" id="fname" name="fname" value="Username"><br>
-         <label for="lname">Write your password:</label><br>
-         <input type="text" id="lname" name="lname" value="Password"><br>
-         <input type="submit" value="Submit">
-       </form>
+              <div class="input-contender">
+                <i class="fa-solid fa-envelope"></i>
+                <input type="email" required>
+                <label for="#">Email</label>
+              </div>
+
+              <div class="input-contender">
+                <i class="fa-solid fa-lock"></i>
+                <input type="Password" required>
+                <label for="#">Password</label>
+              </div>
+
+              <div class="forgot">
+                <label>
+                  <input type="checkbox"> Remember
+                  <a href="#">Forgot my password</a>
+                </label>
+              </div><br>
+
+              <div class="log">
+                <button>Login</button>
+              </div><br>
+
+              <div class="register">
+                <a href="#">Create account</a>
+              </div>
+
+            </form>
+          </div>
+        </div>
+      </section>
    </body>
 
 </html>
